@@ -1,0 +1,21 @@
+---
+// src/components/Header.astro
+const logo = "/img/logo.png";
+---
+
+<header class="bg-[#f37021] py-4 px-6 flex items-center justify-between sm:justify-center relative shadow-lg">
+  <!-- Logo -->
+  <div class="absolute left-6 sm:left-8 top-1/2 transform -translate-y-1/2">
+    <img src="/img/SF-logo.png" alt="Logo" class="h-10 sm:h-12" />
+  </div>
+
+  <!-- Nombre -->
+  <h1 class="text-2xl sm:text-3xl font-semibold text-white text-center w-full tracking-wide">
+    SURTIDORA FERRETERA
+  </h1>
+
+  <!-- Lema opcional en pantallas grandes -->
+  <span class="hidden md:block absolute right-6 top-1/2 transform -translate-y-1/2 text-white text-sm italic">
+    "Calidad, servicio y confianza"
+  </span>
+</header>
