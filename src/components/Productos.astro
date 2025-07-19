@@ -1,52 +1,65 @@
-<section class="bg-white py-12 px-4">
-  <h2 class="text-3xl font-bold text-center text-[#f37021] mb-8">Nuestros productos destacados</h2>
-  <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
-    <div class="border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
-      <img src="/img/A3.jpg" alt="Producto 1" class="w-full h-48 object-cover" />
-      <div class="p-4">
-        <h3 class="text-xl font-semibold text-gray-800">Producto 1</h3>
-        <p class="text-gray-600 text-sm">Calidad garantizada para tu proyecto</p>
-      </div>
-    </div>
-    <!-- Repite con más productos -->
-     <div class="border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
-      <img src="/img/A3.jpg" alt="Producto 1" class="w-full h-48 object-cover" />
-      <div class="p-4">
-        <h3 class="text-xl font-semibold text-gray-800">Producto 1</h3>
-        <p class="text-gray-600 text-sm">Calidad garantizada para tu proyecto</p>
-      </div>
-    </div>
+<section class="bg-truper py-12 px-4 overflow-hidden">
+  <h2 class="text-3xl font-bold text-center text-white mb-8">
+    Contamos con gran variedad de productos
+  </h2>
 
-    <div class="border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
-      <img src="/img/A3.jpg" alt="Producto 1" class="w-full h-48 object-cover" />
-      <div class="p-4">
-        <h3 class="text-xl font-semibold text-gray-800">Producto 1</h3>
-        <p class="text-gray-600 text-sm">Calidad garantizada para tu proyecto</p>
-      </div>
-    </div>
+  <div class="relative w-full overflow-hidden">
+    <div class="flex w-max animate-marquee gap-6">
+      <!-- Repite estos elementos para simular infinito -->
+      {Array(2).fill(0).map(() =>
+        <>
+          <div class="min-w-[250px] max-w-xs bg-white border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+            <img src="/img//img-products/Arandelas.jpg" alt="Arandelas" class="w-full h-48 object-cover" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-gray-800">Arandelas</h3>
+            </div>
+          </div>
 
-    <div class="border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
-      <img src="/img/A3.jpg" alt="Producto 1" class="w-full h-48 object-cover" />
-      <div class="p-4">
-        <h3 class="text-xl font-semibold text-gray-800">Producto 1</h3>
-        <p class="text-gray-600 text-sm">Calidad garantizada para tu proyecto</p>
-      </div>
-    </div>
+          <div class="min-w-[250px] max-w-xs bg-white border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+            <img src="/img/img-products/pegaslate.jpg" alt="Pegaslate" class="w-full h-48 object-contain" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-gray-800">pegapiso</h3>
+            </div>
+          </div>
 
-    <div class="border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
-      <img src="/img/A3.jpg" alt="Producto 1" class="w-full h-48 object-cover" />
-      <div class="p-4">
-        <h3 class="text-xl font-semibold text-gray-800">Producto 1</h3>
-        <p class="text-gray-600 text-sm">Calidad garantizada para tu proyecto</p>
-      </div>
-    </div>
+          <div class="min-w-[250px] max-w-xs bg-white border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+            <img src="/img//img-products/candadoinox.jpg" alt="Candados " class="w-full h-48 object-cover" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-gray-800">Candados</h3>
+            </div>
+          </div>
 
-    <div class="border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
-      <img src="/img/A3.jpg" alt="Producto 1" class="w-full h-48 object-cover" />
-      <div class="p-4">
-        <h3 class="text-xl font-semibold text-gray-800">Producto 1</h3>
-        <p class="text-gray-600 text-sm">Calidad garantizada para tu proyecto</p>
-      </div>
+          <div class="min-w-[250px] max-w-xs bg-white border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+            <img src="/img//img-products/cepillo64.jpg" alt="cepillos" class="w-full h-48 object-cover" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-gray-800">cepillos</h3>
+            </div>
+          </div>
+
+         <div class="min-w-[250px] max-w-xs bg-white border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+            <img src="/img//img-products/Clavija.jpg" alt="Clavijas" class="w-full h-48 object-cover" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-gray-800">clavijas</h3>
+            </div>
+          </div>   
+
+          <div class="min-w-[250px] max-w-xs bg-white border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+            <img src="/img//img-products/espatula.jpg" alt="herramientas" class="w-full h-48 object-cover" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-gray-800">Herramientas</h3>
+            </div>
+          </div>
+
+          <div class="min-w-[250px] max-w-xs bg-white border rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+            <img src="/img/img-products/cemento-caz.png" alt="Cemento" class="w-full h-48 object-contain" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-gray-800">cementos</h3>
+            </div>
+            
+            
+          </div>
+        </>
+      )}
     </div>
   </div>
 </section>

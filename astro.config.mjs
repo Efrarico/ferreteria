@@ -2,6 +2,7 @@ import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
+  evToolbar: false,
   integrations: [tailwind()],
   image: {
     domains: [
